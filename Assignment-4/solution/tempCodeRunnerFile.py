@@ -1,0 +1,5 @@
+plt.title("Plot of exp(x)")
+plt.grid()
+plt.semilogy(x, y_exp_x_from_fs, "ro")
+plt.semilogy(x, y_exp_x, "blue")
+plt.show()
